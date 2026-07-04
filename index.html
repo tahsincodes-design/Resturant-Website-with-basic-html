@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dhakaiya Shaad</title>
+        <style>
+            body{
+                 font-family:Arial, Helvetica, sans-serif;
+                 margin:0;
+                 background:#f5f5f5;
+                 }
+
+            header{
+                 background:#961919;
+                 color:white;
+                 padding:20px;
+                 text-align:center;
+                   }
+            nav{
+                 background:#000000;
+                 padding:12px;
+                 text-align:center;
+                }
+            nav a{
+                 color:white;
+                 text-decoration:none;
+                 margin:15px;
+                  }
+
+            section{
+                 padding:30px;
+                    }
+
+            .menu{
+                 display:flex;
+                 flex-wrap:wrap;
+                 gap:20px;
+                  }
+            .card{
+                 width:250px;
+                 background:white;
+                 padding:15px;
+                 border-radius:10px;
+                 box-shadow:0 0 10px gray;
+                  }
+            .card img{
+                 width:100%;
+                 border-radius:10px;
+                      }
+            form{
+                 background:rgb(229, 226, 226);
+                 padding:20px;
+                 width:350px;
+                 box-shadow:0 0 10px gray;
+                 }
+        </style>
+    </head>    
+    <body>
+        <header>
+             <h1>Dhakaiya Shaad</h1>
+             <p>Authentic Bangladeshi Food</p>
+        </header>
+        <nav>
+             <a href="index.html">Home</a>
+             <a href="breakfast.html">Breakfast</a>
+             <a href="lunch.html">Lunch</a>
+             <a href="dinner.html">Dinner</a>
+             <a href="drinks.html">Drinks</a>
+             <a href="order.html">Order</a>
+        </nav>
+        <section>
+            <h2>Popular Foods</h2>
+
+            <div class="menu">
+
+            <div class="card">
+                <img src="images/Chicken-Biryani-Recipe-01-1.jpg.webp">
+                <h3>Chicken Biryani</h3>
+                <p>Price: ৳280</p>
+            </div>
+
+            <div class="card">
+                <img src="images/lamb-kacchi-biryani_21866f1e-73f2-48d7-8529-383a04aac28a_1024x1024.webp">
+                <h3>Kacchi Biryani</h3>
+                <p>Price: ৳380</p>
+                <hr>
+                <p>The most demanding item in our menu is This <strong>Khacchi Biriyani</strong>. Inspired from <strong>Hydrabadi Biriyani style</strong>.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/grilledchicken.jpg">
+                <h3>Grilled Chicken(Full)</h3>
+                <p>Price: ৳380</p>
+                <hr>
+                <p><strong>Middle Eastern/Mediterranean Style</strong> - Features heavy use of garlic, oregano, olive oil, and lemon, frequently paired with tahini or hummus.</p>
+                <p>Whole Chicken<strong>(Four peices of chicken)</strong> with free Mayonnaise and Tomatto Sauces</p>
+            </div>
+            </div>
+        </section>
+
+        <form>
+             Name:<br>
+            <input type="text"><br><br>
+
+             Phone:<br>
+            <input type="tel"><br><br>
+
+             Food:<br>
+            <select>
+                <option>Chicken Biryani</option>
+                <option>Kacchi Biryani</option>
+                <option>Grilled chicken</option>
+            </select><br><br>
+
+             Quantity:<br>
+            <input type="number"><br><br>gi
+
+            <input type="submit" value="Place Order">
+        </form>
+        <br>
+
+        <footer>
+            Dhakaiya Diner © 2026
+        </footer>
+
+    </body>
+</html>
